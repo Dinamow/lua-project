@@ -1,0 +1,25 @@
+agent:
+  agentId: baseAgent_f898e405-abf1-4810-8cbc-dc9cd617cc7a
+  orgId: 51edd2ea-5a7b-4f5a-9f8e-c51c72070c45
+skills:
+  - name: leave-management-skill
+    skillId: 86ad12b8-7626-4423-b335-0564da8b83d4
+    version: 1.0.1
+  - name: performance-management-skill
+    skillId: 9ba6a326-4f60-4bf5-adc5-f5969e2b0c98
+    version: 1.0.1
+  - name: hr-core-skill
+    skillId: f608e3e6-33a4-4830-b063-ce4d3c9e2eec
+    version: 1.0.1
+webhooks: []
+jobs:
+  - jobId: 241680fd-9d1b-48bc-a47f-2d77d1ce5b25
+    name: iqama-expiry-alert
+    version: 1.0.1
+preprocessors: []
+postprocessors: []
+mcpServers: []
+backup:
+  activeVersion: 1
+  lastHash: 7361c933b17ca55351fa70ce2920e4d604f2b46c75b2016c4e8a0f0908096f00
+  lastPushedAt: '2026-08-30T20:31:06.150Z'

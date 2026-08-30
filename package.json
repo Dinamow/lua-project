@@ -1,0 +1,36 @@
+{
+  "name": "lua-skill",
+  "version": "1.0.1-beta.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "dependencies": {
+    "@pinecone-database/pinecone": "^8.2.0",
+    "@types/inquirer": "^9.0.10",
+    "@types/js-yaml": "^4.0.9",
+    "axios": "^1.20.0",
+    "google-auth-library": "^11.0.2",
+    "inquirer": "^14.2.0",
+    "js-yaml": "^5.4.1",
+    "lua-cli": "^3.27.0",
+    "openai": "^7.8.0",
+    "stripe": "^22.6.0",
+    "uuid": "^14.0.2",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "prettier": "^3.9.6",
+    "tsx": "^4.7.0",
+    "typescript": "^5.9.2"
+  }
+}
